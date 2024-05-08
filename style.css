@@ -1,0 +1,142 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap'); */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    overflow-x: hidden;
+}
+
+
+
+#firstPage{
+    width: 100%;
+    height: 100vh;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    h1{
+        font-size: 20rem;
+        color: white;
+    }
+    position: relative;
+    #fantaCan{
+        z-index: 1;
+        position: absolute;
+        
+    }
+    #orangeSlices{
+        z-index: 2;
+        position: absolute;
+        bottom: 5%;
+        right: 29%;
+        
+    }
+    #orange{
+        position: absolute;
+        width: 22%;
+        top: -1%;
+        left: 30%;
+        
+    }
+    #leaf{
+        
+        position: absolute;
+        width: 25%;
+        left: 0;
+        top: 0;
+        transform: rotate(321deg);
+    }
+}
+
+
+#secondPage{
+    display: flex;
+    justify-self:center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: lightcoral;
+   
+    .left{
+       
+        svg{
+            width: 500px;
+            height: 500px;
+        }
+    }
+}
+
+#third{
+    width: 100%;
+    height: 100vh;
+    background-color: lightsalmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   
+    .cards{
+        width: 25rem;
+        height: 70vh;
+        border-radius: 20px;
+        border: 1px solid;
+    }
+    #orangethird{
+        position: absolute;
+        width: 40%;
+        left: -20%;
+       
+    }
+    #waterMelon{
+        position: absolute;
+        left: -250px;
+       
+    }
+    #waterCan{
+        left: -200px;
+        position: absolute;
+        z-index: 2;
+    }
+    #straw{
+        right: -400px;
+        position: absolute;
+    }
+    #strawCan{
+        right: -400px;
+        position: absolute;
+        z-index: 2;
+    }
+}
+
+#fourth{
+    overflow-x: hidden;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgoldenrodyellow;
+    p{
+        font-size: 40rem;
+        font-weight: bold;
+        white-space: nowrap;
+        transform: translateX(60%);
+    }
+}
+#fifth{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightslategray;
+}
+
+#gg{
+    transition:all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
